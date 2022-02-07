@@ -13,4 +13,4 @@ while True:
 	future = now.replace(hour=15,minute=55,second=0)
 	time.sleep(1)
 	print(future-now)
-	device.text = (future-now)
+	device.text = ('future-now')
